@@ -10,7 +10,8 @@ const initialValue={
     
     },
     ProductToCart:[],
-    search:''
+    search:'',
+    default:'Not fetched'
 
 
 }
@@ -59,12 +60,13 @@ case 'remove':return{
     }
 }
 
+default:return{...prevState , default:'Not fetched'}
 
 }
 
 
 
-return prevState;
+
 }
 const store=createStore(appReducer);
 

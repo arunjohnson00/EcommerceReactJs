@@ -4,7 +4,7 @@ import Body from '../Body/Body';
 import Footer from '../Footer/Footer';
 import Utilities from '../../Utilities/Utilities';
 import HomeSearch from '../Search/HomeSearch';
-import { useSelector, useDispatch} from 'react-redux';
+import { useSelector} from 'react-redux';
 
 const Shop = () => {
   const ProductValue=useSelector((proDetails)=>{
