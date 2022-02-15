@@ -20,7 +20,7 @@ const RoutesAll = () => {
     <Route path="/electronics" element={<Category Cat='electronics'/>} />
     <Route path="/jewelery" element={<Category Cat='jewelery'/>} />
     <Route path="/men's%20clothing" element={<Category Cat="men's clothing"/>} />
-    <Route path="/men's%20clothing" element={<Category Cat="women's clothing"/>} />
+    <Route path="/women's%20clothing" element={<Category Cat="women's clothing"/>} />
   </Routes>
    </BrowserRouter>
   )
